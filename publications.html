@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nebyu Daniel Amaha | Publications</title>
+<title>Publications | Nebyu Daniel Amaha</title>
 
 <style>
 
@@ -14,20 +14,13 @@
     --accent:#dbeafe;
     --light:#f8fafc;
     --text:#1f2937;
-    --border:#e5e7eb;
-}
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
 }
 
 body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    margin:0;
     background:var(--light);
     color:var(--text);
-    line-height:1.7;
 }
 
 header{
@@ -41,18 +34,9 @@ header{
     margin:auto;
 }
 
-header h1{
-    font-size:2.5rem;
-}
-
-header p{
-    color:#cbd5e1;
-    margin-top:10px;
-}
-
 nav{
     background:white;
-    border-bottom:1px solid var(--border);
+    border-bottom:1px solid #e5e7eb;
     position:sticky;
     top:0;
 }
@@ -65,78 +49,61 @@ nav .container{
 nav a{
     margin:0 15px;
     text-decoration:none;
-    color:var(--text);
     font-weight:600;
+    color:var(--text);
 }
 
 section{
-    padding:50px 20px;
+    padding:40px 20px;
 }
 
-.category{
+.card{
     background:white;
-    padding:30px;
+    padding:25px;
+    margin-bottom:25px;
     border-radius:12px;
-    margin-bottom:30px;
     box-shadow:0 2px 8px rgba(0,0,0,0.05);
 }
 
-.category h2{
+h2{
     color:var(--secondary);
-    margin-bottom:20px;
-    border-bottom:2px solid var(--accent);
-    padding-bottom:10px;
+    margin-bottom:15px;
 }
 
 .pub{
-    padding:18px 0;
-    border-bottom:1px solid #f0f0f0;
+    border-bottom:1px solid #eee;
+    padding:15px 0;
 }
 
 .pub:last-child{
-    border-bottom:none;
+    border:none;
 }
 
-.pub a{
+.pub a.title{
     color:var(--secondary);
-    text-decoration:none;
     font-weight:600;
-    font-size:1.05rem;
+    text-decoration:none;
 }
 
-.pub a:hover{
+.pub a.title:hover{
     text-decoration:underline;
 }
 
-.journal{
+.meta{
     color:#6b7280;
-    font-style:italic;
+    font-size:0.9rem;
 }
 
-.note{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    margin-bottom:30px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.05);
-}
-
-.scholar-btn{
+.btn{
     display:inline-block;
-    margin-top:15px;
-    background:var(--secondary);
-    color:white;
-    padding:10px 18px;
-    border-radius:6px;
+    margin-top:8px;
+    padding:6px 10px;
+    background:var(--accent);
+    color:var(--secondary);
     text-decoration:none;
+    border-radius:6px;
+    font-size:0.85rem;
     font-weight:600;
-}
-
-footer{
-    background:var(--primary);
-    color:white;
-    text-align:center;
-    padding:25px;
 }
 
 </style>
@@ -146,191 +113,132 @@ footer{
 
 <header>
 <div class="container">
-
 <h1>Publications</h1>
-
-<p>
-First-author publications organized by research area.
-</p>
-
+<p>First-author peer-reviewed publications with downloadable PDFs</p>
 </div>
 </header>
 
 <nav>
 <div class="container">
 <a href="index.html">Home</a>
-<a href="projects.html">Research Projects</a>
+<a href="projects.html">Projects</a>
 <a href="publications.html">Publications</a>
 </div>
 </nav>
 
 <section>
-
 <div class="container">
 
-<div class="note">
-
-<h2>Publication Record</h2>
-
-<p>
-The publications below highlight my first-author research contributions across nutritional epidemiology,
-mental health, women's health, and pharmacoepidemiology. For a complete and continuously updated list
-of publications, citations, and research metrics, please visit my Google Scholar profile.
-</p>
-
-<a class="scholar-btn"
-href="https://scholar.google.com/citations?user=3wyDpQ8AAAAJ"
-target="_blank">
-View Google Scholar Profile
-</a>
-
-</div>
-
-<div class="category">
-
+<div class="card">
 <h2>Mental Health Epidemiology</h2>
 
 <div class="pub">
-<a href="https://doi.org/10.1016/j.clnesp.2026.103272" target="_blank">
+<a class="title" href="https://doi.org/10.1016/j.clnesp.2026.103272">
 Association between dietary fibre intake and depressive symptoms before and during the COVID-19 pandemic
 </a>
-<br>
-<span class="journal">Clinical Nutrition ESPEN (2026)</span>
+<div class="meta">Clinical Nutrition ESPEN (2026)</div>
+<a class="btn" href="papers/Amaha 2026 ESPEN Clinical Nutrition.pdf" download>Download PDF</a>
 </div>
 
 </div>
 
-<div class="category">
-
+<div class="card">
 <h2>Nutritional Epidemiology</h2>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s13031-026-00786-1" target="_blank">
+<a class="title" href="https://doi.org/10.1186/s13031-026-00786-1">
 Minimum dietary diversity and its associated factors among children aged 6–23 months in Mekelle, Northern Ethiopia, following the Tigray war
 </a>
-<br>
-<span class="journal">Conflict and Health (2026)</span>
+<div class="meta">Conflict and Health (2026)</div>
+<a class="btn" href="papers/Amaha and Gebregziabher 2026 Conflict and Health.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1002/fsn3.70729" target="_blank">
+<a class="title" href="https://doi.org/10.1002/fsn3.70729">
 Prevalence and Determinants of Unhealthy Food and Beverage Consumption Among Children Aged 6–23 Months in Mekelle, Northern Ethiopia
 </a>
-<br>
-<span class="journal">Food Science & Nutrition (2025)</span>
+<div class="meta">Food Science & Nutrition (2025)</div>
+<a class="btn" href="papers/Amaha 2025 Food Science and Nutrition.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s12889-025-22831-z" target="_blank">
-Determinants of height-for-age Z-score (HAZ) among Ethiopian children aged 0–59 months: a multilevel mixed-effects analysis
+<a class="title" href="https://doi.org/10.1186/s12889-025-22831-z">
+Determinants of height-for-age Z-score (HAZ) among Ethiopian children aged 0–59 months
 </a>
-<br>
-<span class="journal">BMC Public Health (2025)</span>
+<div class="meta">BMC Public Health (2025)</div>
+<a class="btn" href="papers/Amaha 2025 BMC Public Health.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s12937-021-00677-6" target="_blank">
-Maternal factors associated with moderate and severe stunting in Ethiopian children: analysis of some environmental factors based on the 2016 Demographic and Health Survey
+<a class="title" href="https://doi.org/10.1186/s12937-021-00677-6">
+Maternal factors associated with stunting in Ethiopian children
 </a>
-<br>
-<span class="journal">Nutrition Journal (2021)</span>
+<div class="meta">Nutrition Journal (2021)</div>
+<a class="btn" href="papers/Amaha and Woldeamanuel 2021 Nutrition Journal.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s13104-020-05408-4" target="_blank">
-Ethiopian progress towards achieving the global nutrition targets of 2025: analysis of sub-national trends and progress inequalities
+<a class="title" href="https://doi.org/10.1186/s13104-020-05408-4">
+Ethiopian progress towards global nutrition targets
 </a>
-<br>
-<span class="journal">BMC Research Notes (2020)</span>
+<div class="meta">BMC Research Notes (2020)</div>
+<a class="btn" href="papers/Amaha 2020 Research Notes.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s40795-020-00371-6" target="_blank">
-What factors are associated with the increase of anemia in Ethiopian children aged 6 to 59 months between 2011 and 2016?
+<a class="title" href="https://doi.org/10.1186/s40795-020-00371-6">
+Anemia trends among Ethiopian children 2011–2016
 </a>
-<br>
-<span class="journal">BMC Nutrition (2020)</span>
+<div class="meta">BMC Nutrition (2020)</div>
+<a class="btn" href="papers/Amaha 2020 BMC Nutrition.pdf" download>Download PDF</a>
 </div>
 
 </div>
 
-<div class="category">
-
-<h2>Women's Health and Gender Epidemiology</h2>
+<div class="card">
+<h2>Women's Health</h2>
 
 <div class="pub">
-<a href="https://doi.org/10.1371/journal.pone.0297831" target="_blank">
-Current khat (Catha edulis F.) use among Ethiopian women and its association with anemia and underweight: A cross-sectional analysis from the Ethiopian Demographic and Health Survey
+<a class="title" href="https://doi.org/10.1371/journal.pone.0297831">
+Khat use among Ethiopian women and association with anemia and underweight
 </a>
-<br>
-<span class="journal">PLOS ONE (2024)</span>
+<div class="meta">PLOS ONE (2024)</div>
+<a class="btn" href="papers/Amaha et al 2024 Plos One.pdf" download>Download PDF</a>
 </div>
 
 </div>
 
-<div class="category">
-
-<h2>Pharmacoepidemiology and Antimicrobial Resistance</h2>
+<div class="card">
+<h2>Pharmacoepidemiology & Antimicrobial Resistance</h2>
 
 <div class="pub">
-<a href="https://doi.org/10.1371/journal.pone.0233275" target="_blank">
-Antibiotic consumption study in two hospitals in Asmara from 2014 to 2018 using WHO's defined daily dose (DDD) methodology
+<a class="title" href="https://doi.org/10.1371/journal.pone.0233275">
+Antibiotic consumption using WHO DDD methodology
 </a>
-<br>
-<span class="journal">PLOS ONE (2020)</span>
+<div class="meta">PLOS ONE (2020)</div>
+<a class="btn" href="papers/Amaha et al 2020 Plos One.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s13756-019-0620-5" target="_blank">
-Prescribing practices using WHO prescribing indicators and factors associated with antibiotic prescribing in six community pharmacies in Asmara, Eritrea: a cross-sectional study
+<a class="title" href="https://doi.org/10.1186/s13756-019-0620-5">
+Antibiotic prescribing practices in community pharmacies
 </a>
-<br>
-<span class="journal">Antimicrobial Resistance & Infection Control (2019)</span>
+<div class="meta">Antimicrobial Resistance & Infection Control (2019)</div>
+<a class="btn" href="papers/Amaha et al 2019 Antimicrobial Resistance and Infection Control.pdf" download>Download PDF</a>
 </div>
 
 <div class="pub">
-<a href="https://doi.org/10.1186/s13104-018-4000-7" target="_blank">
-Assessment of inpatient antibiotic use in Halibet National Referral Hospital using WHO indicators: a retrospective study
+<a class="title" href="https://doi.org/10.1186/s13104-018-4000-7">
+Inpatient antibiotic use in Halibet Hospital
 </a>
-<br>
-<span class="journal">BMC Research Notes (2018)</span>
-</div>
-
-</div>
-
-<div class="category">
-
-<h2>Additional Co-Authored Publications</h2>
-
-<div class="pub">
-Evaluation of ceftriaxone use in the medical ward of Halibet National Referral and Teaching Hospital in 2017 in Asmara, Eritrea
-<br>
-<span class="journal">BMC Infectious Diseases (2019)</span>
-</div>
-
-<div class="pub">
-Assessment of completeness and legibility of handwritten prescriptions in six community chain pharmacies of Asmara, Eritrea
-<br>
-<span class="journal">BMC Health Services Research (2020)</span>
-</div>
-
-<div class="pub">
-A preliminary in silico study on experimental animal model for Hamamy syndrome: a rare human genetic disorder
-<br>
-<span class="journal">Biomedical Journal of Scientific & Technical Research (2020)</span>
+<div class="meta">BMC Research Notes (2018)</div>
+<a class="btn" href="papers/Amaha et al 2018 BMC Research Notes.pdf" download>Download PDF</a>
 </div>
 
 </div>
 
 </div>
-
 </section>
-
-<footer>
-<p>
-© 2026 Nebyu Daniel Amaha
-</p>
-</footer>
 
 </body>
 </html>
