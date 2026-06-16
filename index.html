@@ -3,58 +3,312 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nebyu Daniel Amaha | Research Portfolio</title>
+
+<title>Nebyu Daniel Amaha | Public Health Nutritionist & Epidemiologist</title>
 
 <style>
-body {font-family: Arial; margin:0; background:#f5f7fb; color:#222;}
-header {background:#111827; color:white; padding:60px; text-align:center;}
-nav {background:#e5e7eb; padding:12px; text-align:center; position:sticky; top:0;}
-nav a {margin:0 12px; text-decoration:none; font-weight:bold; color:#111827;}
-section {max-width:950px; margin:40px auto; background:white; padding:25px; border-radius:10px;}
-.badge {display:inline-block; background:#eef2ff; padding:5px 10px; margin:4px; border-radius:6px;}
-a {color:#1d4ed8;}
+
+:root{
+    --primary:#0f172a;
+    --secondary:#1e40af;
+    --accent:#dbeafe;
+    --light:#f8fafc;
+    --text:#1f2937;
+    --border:#e5e7eb;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--light);
+    color:var(--text);
+    line-height:1.7;
+}
+
+header{
+    background:var(--primary);
+    color:white;
+    padding:80px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#cbd5e1;
+}
+
+.buttons{
+    margin-top:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 18px;
+    margin:5px;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:white;
+    color:var(--primary);
+}
+
+.btn-secondary{
+    border:1px solid white;
+    color:white;
+}
+
+nav{
+    background:white;
+    border-bottom:1px solid var(--border);
+    position:sticky;
+    top:0;
+}
+
+nav .container{
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+}
+
+section{
+    padding:60px 20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+    margin-top:25px;
+}
+
+.stat{
+    background:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+}
+
+.stat h3{
+    font-size:2rem;
+    color:var(--secondary);
+}
+
+.badges{
+    margin-top:20px;
+}
+
+.badge{
+    display:inline-block;
+    background:var(--accent);
+    color:var(--secondary);
+    padding:8px 12px;
+    margin:5px;
+    border-radius:20px;
+    font-size:0.9rem;
+}
+
+.pub{
+    margin-bottom:20px;
+}
+
+.pub a{
+    text-decoration:none;
+    color:var(--secondary);
+    font-weight:600;
+}
+
+footer{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
+<div class="container hero">
+
 <h1>Nebyu Daniel Amaha</h1>
-<p>Public Health Nutritionist | Epidemiologist | Pharmacoepidemiology Researcher</p>
 
 <p>
-<a href="https://orcid.org/0000-0001-5900-5939" style="color:white;">ORCID</a> |
-<a href="https://scholar.google.com/citations?user=3wyDpQ8AAAAJ" style="color:white;">Google Scholar</a> |
-<a href="https://github.com/NebyuDanielAmaha" style="color:white;">GitHub</a>
+Public Health Nutritionist | Epidemiologist | Pharmacoepidemiology Researcher
 </p>
+
+<div class="buttons">
+
+<a class="btn btn-primary"
+href="Nebyu_Daniel_Amaha_CV.pdf">
+Download CV
+</a>
+
+<a class="btn btn-secondary"
+href="https://scholar.google.com/citations?user=3wyDpQ8AAAAJ"
+target="_blank">
+Google Scholar
+</a>
+
+<a class="btn btn-secondary"
+href="https://orcid.org/0000-0001-5900-5939"
+target="_blank">
+ORCID
+</a>
+
+<a class="btn btn-secondary"
+href="https://github.com/NebyuDanielAmaha"
+target="_blank">
+GitHub
+</a>
+
+</div>
+
+</div>
 </header>
 
 <nav>
+<div class="container">
 <a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
+<a href="projects.html">Research Projects</a>
 <a href="publications.html">Publications</a>
-<a href="cv.html">CV</a>
+</div>
 </nav>
 
 <section>
+<div class="container">
+
+<h2>Academic Snapshot</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>14</h3>
+<p>Peer-Reviewed Publications</p>
+</div>
+
+<div class="stat">
+<h3>11</h3>
+<p>First-Author Publications</p>
+</div>
+
+<div class="stat">
+<h3>520+</h3>
+<p>Citations</p>
+</div>
+
+<div class="stat">
+<h3>10</h3>
+<p>h-index</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container card">
 
 <h2>About</h2>
+
 <p>
-Public health nutritionist and epidemiologist specializing in nutritional epidemiology,
-mental health epidemiology, women’s health, biological aging, and physical activity research.
-My work integrates population-based datasets (DHS, cohort and survey data) with advanced
-statistical methods to investigate life-course health determinants in low- and middle-income settings.
+I am a public health nutritionist and epidemiologist whose research focuses on nutritional epidemiology, mental health, women's health, biological aging, physical activity, and antimicrobial resistance. My work uses advanced epidemiologic and statistical methods to investigate determinants of health across the life course using large-scale population datasets including Demographic and Health Surveys (DHS), NHANES, and hospital-based data.
 </p>
 
-<h3>Research Domains</h3>
-<span class="badge">Mental Health Epidemiology</span>
-<span class="badge">Women Empowerment & Health</span>
-<span class="badge">Biological Aging</span>
-<span class="badge">Physical Activity & Health Outcomes</span>
+<div class="badges">
 <span class="badge">Nutritional Epidemiology</span>
+<span class="badge">Mental Health</span>
+<span class="badge">Biological Aging</span>
+<span class="badge">Women's Health</span>
+<span class="badge">Physical Activity</span>
 <span class="badge">Antimicrobial Resistance</span>
+<span class="badge">Pharmacoepidemiology</span>
+</div>
 
+</div>
 </section>
+
+<section>
+<div class="container card">
+
+<h2>Featured Publications</h2>
+
+<div class="pub">
+<a href="https://doi.org/10.1016/j.clnesp.2026.103272" target="_blank">
+Association between dietary fibre intake and depressive symptoms before and during the COVID-19 pandemic
+</a>
+<br>
+Clinical Nutrition ESPEN (2026)
+</div>
+
+<div class="pub">
+<a href="https://doi.org/10.1186/s13031-026-00786-1" target="_blank">
+Minimum dietary diversity and its associated factors among children aged 6–23 months in Mekelle, Northern Ethiopia, following the Tigray war
+</a>
+<br>
+Conflict and Health (2026)
+</div>
+
+<div class="pub">
+<a href="https://doi.org/10.1186/s12889-025-22831-z" target="_blank">
+Determinants of height-for-age Z-score (HAZ) among Ethiopian children aged 0–59 months: a multilevel mixed-effects analysis
+</a>
+<br>
+BMC Public Health (2025)
+</div>
+
+<p style="margin-top:20px;">
+<a href="publications.html">
+View complete publication list →
+</a>
+</p>
+
+</div>
+</section>
+
+<footer>
+
+<p>
+© 2026 Nebyu Daniel Amaha
+</p>
+
+</footer>
 
 </body>
 </html>
