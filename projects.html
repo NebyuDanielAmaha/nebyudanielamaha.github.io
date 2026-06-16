@@ -3,58 +3,294 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nebyu Daniel Amaha | Research Portfolio</title>
+
+<title>Nebyu Daniel Amaha | Research Projects</title>
 
 <style>
-body {font-family: Arial; margin:0; background:#f5f7fb; color:#222;}
-header {background:#111827; color:white; padding:60px; text-align:center;}
-nav {background:#e5e7eb; padding:12px; text-align:center; position:sticky; top:0;}
-nav a {margin:0 12px; text-decoration:none; font-weight:bold; color:#111827;}
-section {max-width:950px; margin:40px auto; background:white; padding:25px; border-radius:10px;}
-.badge {display:inline-block; background:#eef2ff; padding:5px 10px; margin:4px; border-radius:6px;}
-a {color:#1d4ed8;}
+
+:root{
+    --primary:#0f172a;
+    --secondary:#1e40af;
+    --accent:#dbeafe;
+    --light:#f8fafc;
+    --text:#1f2937;
+    --border:#e5e7eb;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--light);
+    color:var(--text);
+    line-height:1.7;
+}
+
+header{
+    background:var(--primary);
+    color:white;
+    padding:60px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+nav{
+    background:white;
+    border-bottom:1px solid var(--border);
+    position:sticky;
+    top:0;
+}
+
+nav .container{
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+}
+
+section{
+    padding:50px 20px;
+}
+
+.project{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    margin-bottom:25px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project h2{
+    color:var(--secondary);
+    margin-bottom:15px;
+}
+
+.badge{
+    display:inline-block;
+    background:var(--accent);
+    color:var(--secondary);
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:0.85rem;
+    margin-right:8px;
+    margin-bottom:10px;
+}
+
+.status{
+    display:inline-block;
+    background:#ecfdf5;
+    color:#065f46;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:0.85rem;
+    font-weight:600;
+}
+
+ul{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+footer{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Nebyu Daniel Amaha</h1>
-<p>Public Health Nutritionist | Epidemiologist | Pharmacoepidemiology Researcher</p>
+<div class="container">
+
+<h1>Research Projects</h1>
 
 <p>
-<a href="https://orcid.org/0000-0001-5900-5939" style="color:white;">ORCID</a> |
-<a href="https://scholar.google.com/citations?user=3wyDpQ8AAAAJ" style="color:white;">Google Scholar</a> |
-<a href="https://github.com/NebyuDanielAmaha" style="color:white;">GitHub</a>
+Current research programs, ongoing analyses, and developing areas of inquiry.
 </p>
+
+</div>
 </header>
 
 <nav>
+<div class="container">
 <a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
+<a href="projects.html">Research Projects</a>
 <a href="publications.html">Publications</a>
-<a href="cv.html">CV</a>
+</div>
 </nav>
 
 <section>
 
-<h2>About</h2>
+<div class="container">
+
+<div class="project">
+
+<h2>Mental Health Epidemiology</h2>
+
+<span class="badge">Nutrition & Mental Health</span>
+<span class="badge">Depression</span>
+<span class="badge">Population Health</span>
+<span class="status">Active Research Area</span>
+
 <p>
-Public health nutritionist and epidemiologist specializing in nutritional epidemiology,
-mental health epidemiology, women’s health, biological aging, and physical activity research.
-My work integrates population-based datasets (DHS, cohort and survey data) with advanced
-statistical methods to investigate life-course health determinants in low- and middle-income settings.
+This research program examines the relationship between dietary exposures,
+lifestyle behaviors, and mental health outcomes across diverse populations.
+The focus is on identifying modifiable risk factors that may contribute to
+depressive symptoms and psychological wellbeing.
 </p>
 
-<h3>Research Domains</h3>
-<span class="badge">Mental Health Epidemiology</span>
-<span class="badge">Women Empowerment & Health</span>
-<span class="badge">Biological Aging</span>
-<span class="badge">Physical Activity & Health Outcomes</span>
-<span class="badge">Nutritional Epidemiology</span>
-<span class="badge">Antimicrobial Resistance</span>
+<h3>Current Work</h3>
+
+<ul>
+<li>Dietary fibre intake and depressive symptoms before and during COVID-19</li>
+<li>Nutritional determinants of mental health disparities</li>
+<li>Population-level risk factors for depression and anxiety</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h2>Women's Empowerment and Health</h2>
+
+<span class="badge">Women's Health</span>
+<span class="badge">Empowerment</span>
+<span class="badge">DHS Analysis</span>
+<span class="status">Active Research Area</span>
+
+<p>
+This research program investigates how women's empowerment influences
+health and wellbeing, with particular attention to mental health,
+nutrition, reproductive health, and health-seeking behaviors in
+low- and middle-income countries.
+</p>
+
+<h3>Current Work</h3>
+
+<ul>
+<li>Women's empowerment and depressive symptoms</li>
+<li>Women's empowerment and anxiety</li>
+<li>SWPER domains and mental health outcomes</li>
+<li>Women's autonomy and nutritional outcomes</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h2>Biological Aging</h2>
+
+<span class="badge">Healthy Aging</span>
+<span class="badge">PhenoAge</span>
+<span class="badge">NHANES</span>
+<span class="status">Data Analysis</span>
+
+<p>
+This research program explores determinants of biological age acceleration
+using biomarker-based aging measures. The goal is to understand how lifestyle,
+nutrition, and physical activity influence aging trajectories and long-term health.
+</p>
+
+<h3>Current Work</h3>
+
+<ul>
+<li>Physical activity and biological aging</li>
+<li>Lifestyle determinants of accelerated aging</li>
+<li>Biological age acceleration using NHANES biomarkers</li>
+<li>Epidemiologic approaches to healthy aging research</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h2>Physical Activity Epidemiology</h2>
+
+<span class="badge">Physical Activity</span>
+<span class="badge">Chronic Disease</span>
+<span class="badge">NHANES</span>
+<span class="status">Data Analysis</span>
+
+<p>
+This research program evaluates how physical activity and sedentary behavior
+influence chronic disease risk and healthy aging. Particular emphasis is placed
+on identifying activity patterns that promote longevity and reduce disease burden.
+</p>
+
+<h3>Current Work</h3>
+
+<ul>
+<li>Physical activity and biological aging</li>
+<li>Sedentary behavior and health outcomes</li>
+<li>Moderate-to-vigorous physical activity and aging trajectories</li>
+<li>Population-level physical activity recommendations</li>
+</ul>
+
+</div>
+
+<div class="project">
+
+<h2>Nutritional Epidemiology</h2>
+
+<span class="badge">Diet Quality</span>
+<span class="badge">Child Nutrition</span>
+<span class="badge">Population Health</span>
+<span class="status">Ongoing Research Program</span>
+
+<p>
+My broader research program focuses on nutritional epidemiology,
+including dietary quality, dietary diversity, ultra-processed foods,
+and child nutritional outcomes. This work aims to inform evidence-based
+nutrition policy and intervention strategies.
+</p>
+
+<h3>Current Work</h3>
+
+<ul>
+<li>Ultra-processed food consumption and child nutritional status</li>
+<li>Diet quality indicators and health outcomes</li>
+<li>Dietary diversity among children in post-conflict settings</li>
+<li>Population-level nutritional transitions</li>
+</ul>
+
+</div>
+
+</div>
 
 </section>
+
+<footer>
+
+<p>
+Nebyu Daniel Amaha | Research Portfolio
+</p>
+
+</footer>
 
 </body>
 </html>
